@@ -65,4 +65,4 @@ has_many :room_users
 | room    | references | null: false, foreign_key: true |
 
 - belongs_to :room
-- belongs_to :user
+- belongs_to :userr
